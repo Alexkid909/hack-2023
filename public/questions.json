@@ -1,17 +1,42 @@
 [
   {
-    "question": "Do you gamble longer than you intend?"
+    "question": "Do you gamble longer than you intend?",
+    "category": "temporal",
+    "answerRange": {
+      "start": 1,
+      "end": 10
+    }
   },
   {
-    "question": "question 2"
+    "question": "Do you ever struggle financially because of your gambling?",
+    "category": "financial",
+    "answerRange": {
+      "start": 1,
+      "end": 10
+    }
   },
   {
-    "question": "question 3"
+    "question": "Do you feel you spend too much money gambling?",
+    "category": "behavioural",
+    "answerRange": {
+      "start": 1,
+      "end": 10
+    }
   },
   {
-    "question": "question 4"
+    "question": "Do you feel your gambling effects your relationships with family and friends ",
+    "category": "social",
+    "answerRange": {
+      "start": 1,
+      "end": 10
+    }
   },
   {
-    "question": "question 5"
+    "question": "Do you feel your gambling has an impact on your health?",
+    "category": "personal",
+    "answerRange": {
+      "start": 1,
+      "end": 10
+    }
   }
 ]

@@ -40,7 +40,7 @@ const store = new Vuex.Store({
       {
         name: "temporal",
         maxScore: 10,
-        score: 7,
+        score: null,
         friendlyName: "Time",
         recommendations: {
           minor: [],
@@ -51,7 +51,7 @@ const store = new Vuex.Store({
       {
         name: "financial",
         maxScore: 10,
-        score: 10,
+        score: null,
         friendlyName: "Financial",
         recommendations: {
           minor: [],
@@ -68,7 +68,7 @@ const store = new Vuex.Store({
       {
         name: "behavioural",
         maxScore: 10,
-        score: 1,
+        score: null,
         friendlyName: "Stakes",
         recommendations: {
           minor: [],
@@ -91,7 +91,7 @@ const store = new Vuex.Store({
       {
         name: "social",
         maxScore: 10,
-        score: 3,
+        score: null,
         friendlyName: "Relationships",
         recommendations: {
           minor: [],
@@ -102,7 +102,7 @@ const store = new Vuex.Store({
       {
         name: "personal",
         maxScore: 10,
-        score: 5,
+        score: null,
         friendlyName: "Health",
         recommendations: {
           minor: [],
@@ -117,10 +117,20 @@ const store = new Vuex.Store({
     setRecommendatonMessages(state, payload) {
       state.recommendationMessages = { ...payload };
     },
+    setCategoryScores(state, payload) {
+      const categories = [...state.categories];
+      categories.map((category) => {
+        const { name, score } = category;
+        category.score = payload[name] || score;
+      });
+    },
   },
   actions: {
     setRecommendatonMessages({ commit }, payload) {
       commit("setRecommendatonMessages", payload);
+    },
+    setCategoryScores({ commit }, payload) {
+      commit("setCategoryScores", payload);
     },
   },
   getters: {

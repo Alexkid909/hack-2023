@@ -18,6 +18,7 @@
       ></SurveyResultsCategory>
     </div>
     <v-btn to="/recommendations">See reccommendations</v-btn>
+    <v-btn to="/">Start over</v-btn>
   </div>
 </template>
 
