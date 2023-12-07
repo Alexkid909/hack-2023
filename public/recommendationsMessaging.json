@@ -1,0 +1,53 @@
+{
+  "play-time-reminders": {
+    "message": "You could be spending longer than usual on the site and could do with reducing the amount of time you spend playing games. Try setting up one of our reality checks, to give yourself that little reminder.",
+    "cta": { "destination": "", "label": "" }
+  },
+  "session-limits": {
+    "message": "You're gambling sessions might be lasting longer than average. We can help reduce these by helping you set up a session limit. This lets you set a specific amount of play time for yourself.",
+    "cta": { "destination": "", "label": "" }
+  },
+  "deposit-limits": {
+    "message": "You could be adding too much money to your account on a regular basis. Set up a deposit limit to help control how much you spend",
+    "cta": { "destination": "", "label": "" }
+  },
+  "auto-withdraw": {
+    "message": "Auto withdrawal will allow you to to set a maximum balance after which funds will be automatically removed from your account",
+    "cta": { "destination": "", "label": "" }
+  },
+  "promote-withdraw": {
+    "message": "We recommend withdrawing some of the funds in your account if you have reached a higher or lower balance than you started with. We don't want you going to far to win money back or take winnings even further",
+    "cta": { "destination": "", "label": "" }
+  },
+  "take-a-break": {
+    "message": "We recommend possibly taking a break from the site. We can block your account for a few days and you can come back fresh faced, giving yourself time to take note of your current outlook",
+    "cta": { "destination": "", "label": "" }
+  },
+  "self-exclude": {
+    "message": "If you feel that your habits are getting the better of you and you want to stop for a lot longer, then self excluding will restrict your access for a set amount of time so that you are not tempted to play anymore",
+    "cta": { "destination": "", "label": "" }
+  },
+  "casino-spend-limits": {
+    "message": "You may be betting more than you're winning and this can build on you quickly without you realising. Add a stake limit to reduce the amount you can bet in a set amount of time",
+    "cta": { "destination": "", "label": "" }
+  },
+  "casino-loss-limits": {
+    "message": "You may be losing more than you're winning, and it can feel tempting to keep going to win back yuor losses, but that can lead to further loss. Try adding a loss limit to your account so you can curb potential future losses",
+    "cta": { "destination": "", "label": "" }
+  },
+  "lottery-purchase-limits": {
+    "message": "You may be buying too many tickets which can build on you quickly without you realising. Add a lottery purchase limit to reduce the amount you can buy in a set amount of time",
+    "cta": { "destination": "", "label": "" }
+  },
+  "sports-spend-limits": {
+    "message": "You may be betting more than you're winning and this can build on you quickly without you realising. Add a stake limit to reduce the amount you can bet in a set amount of time",
+    "cta": { "destination": "", "label": "" }
+  },
+  "third-party-advice": {
+    "message": "If you feel like gambling is affecting your personal life and mental health, then it may be worth reaching out to people who can help you. Visit (link) to find help and advice and a caring community",
+    "cta": {
+      "destination": "https://www.begambleaware.org/",
+      "label": "www.begambleaware.org"
+    }
+  }
+}
