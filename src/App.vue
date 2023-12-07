@@ -14,7 +14,7 @@
       </v-app-bar> -->
 
       <v-main>
-        <v-container class="mt-10 d-flex justify-center">
+        <v-container class="mt-10 d-flex justify-center main">
           <v-sheet color="white" elevation="5" max-width="640px">
             <v-card height="100%" class="px-10 py-6 text-center">
               <router-view></router-view>
@@ -37,9 +37,15 @@ export default {
 
 .root {
   header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     &.header {
       background-color: rgb(230, 230, 230);
       box-shadow: 0 5px 10px 1px gray;
+      z-index: 2;
     }
   }
 
@@ -47,6 +53,10 @@ export default {
     font-family: "Alfa Slab One";
     color: #ff5722;
     font-size: 76px;
+  }
+
+  .main {
+    padding-top: 120px;
   }
 
   .survey-button {
