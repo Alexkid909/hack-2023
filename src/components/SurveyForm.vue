@@ -11,20 +11,27 @@
       <v-card-text class="text-body-1">
         {{ currentQuestion?.question || "" }}
       </v-card-text>
-      <v-card-actions class="flex-wrap justify-center">
-        <SurveyItem
-          :question="questions[currentQuestionIndex]"
-          @answer-changed="setAnswer"
-        ></SurveyItem>
-        <v-btn :disabled="!canGoToPrev" @click="goToPrevQuestion()">Prev</v-btn>
-        <v-btn
-          v-if="currentQuestionIndex === questions.length - 1"
-          @click="submitResults"
-          >Get results</v-btn
-        >
-        <v-btn v-else :disabled="!canGoToNext" @click="goToNextQuestion()"
-          >Next</v-btn
-        >
+      <v-card-actions class="flex-wrap justify-center flex-column">
+        <div>
+          <SurveyItem
+            :question="questions[currentQuestionIndex]"
+            @answer-changed="setAnswer"
+          ></SurveyItem>
+        </div>
+        <div>
+          <v-btn :disabled="!canGoToPrev" @click="goToPrevQuestion()"
+            >Prev</v-btn
+          >
+          <v-btn
+            v-if="currentQuestionIndex === questions.length - 1"
+            :disabled="!canGetResults"
+            @click="submitResults"
+            >Get results</v-btn
+          >
+          <v-btn v-else :disabled="!canGoToNext" @click="goToNextQuestion()"
+            >Next</v-btn
+          >
+        </div>
       </v-card-actions>
     </v-form>
   </div>
@@ -56,6 +63,9 @@ export default {
     },
     canGoToPrev() {
       return this.currentQuestionIndex > 0;
+    },
+    canGetResults() {
+      return !!this.currentAnswer;
     },
   },
   async created() {

@@ -158,7 +158,7 @@ const store = new Vuex.Store({
         },
         {}
       );
-      const { major, minor, moderate } = recommendations;
+      const { major = [], minor = [], moderate = [] } = recommendations;
       return [...major, ...moderate, ...minor];
     },
     getCategoriesRiskBands: (state) => {
