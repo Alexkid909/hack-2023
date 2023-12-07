@@ -82,5 +82,12 @@
       "destination": "https://www.begambleaware.org/",
       "label": "find help and advice"
     }
+  },
+  "defaul-recommendation": {
+    "message": "Seems like everything is going well. Great work!",
+    "cta": {
+      "destination": "",
+      "label": ""
+    }
   }
 }

@@ -15,6 +15,10 @@
           :key="index"
           :recommendation-key="recommendation"
         ></SurveyRecommendation>
+        <SurveyRecommendation
+          v-if="getCategoriesRecommendations.length === 0"
+          :recommendation-key="'defaul-recommendation'"
+        ></SurveyRecommendation>
       </ul>
     </v-card-text>
     <v-btn to="/results">Back to results</v-btn>
@@ -35,6 +39,9 @@ export default {
   data() {
     return {
       recommendationsMessages: [],
+      defaultRecommendation: {
+        message: "Seems like everything is going well. Great work!",
+      },
     };
   },
   computed: {
