@@ -39,7 +39,7 @@
 
       <v-main>
         <v-container class="mt-10 d-flex justify-center">
-          <v-sheet color="white" elevation="5" width="66%">
+          <v-sheet color="white" elevation="5" max-width="640px">
             <v-card height="100%" class="px-10 py-6 text-center">
               <router-view></router-view>
             </v-card>

@@ -12,7 +12,7 @@
       >
         <template #label>
           <v-btn
-            class="mx-2 my-2 survey-button"
+            class="mx-1 my-2 survey-button"
             width="1"
             large
             tile

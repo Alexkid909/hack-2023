@@ -1,5 +1,8 @@
 <template>
-  <li class="survey-recommendation mb-4" v-html="recommendationsMessage"></li>
+  <li
+    class="survey-recommendation mb-4 text-left"
+    v-html="recommendationsMessage"
+  ></li>
 </template>
 
 <script>
