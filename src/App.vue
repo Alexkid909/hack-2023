@@ -43,8 +43,8 @@ export default {
     width: 100%;
 
     &.header {
-      background-color: rgb(230, 230, 230);
       box-shadow: 0 5px 10px 1px gray;
+      background-color: #f5f5f5;
       z-index: 2;
     }
   }
