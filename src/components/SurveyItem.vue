@@ -23,7 +23,7 @@
       </v-radio>
       <div class="key d-flex justify-space-between">
         <div><p>Does not apply</p></div>
-        <div><p>Applies</p></div>
+        <div><p>Definitely Applies</p></div>
       </div>
     </v-radio-group>
   </div>

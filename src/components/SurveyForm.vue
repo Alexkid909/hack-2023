@@ -2,7 +2,7 @@
   <div class="survey-form">
     <v-form>
       <v-card-title class="justify-center"
-        ><h1 class="text-h4">Self Assesement Survey</h1>
+        ><h1 class="text-h4">Self Assessement Survey</h1>
       </v-card-title>
       <v-card-subtitle class="text-subtitle-1"
         >Take this quick survey about your gaming behaviours to see how we can
