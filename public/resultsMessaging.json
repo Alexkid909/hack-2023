@@ -1,5 +1,27 @@
 {
-  "minor": "Yey! it looks like your gambling is having very little impact from a (category) point of view.",
-  "moderate": "Hmmmm! it looks like your gambling might be having a moderate impact from a (category) point of view.",
-  "major": "Oh oh! it looks like your gambling is having a significant impact from a (category) point of view."
+  "temporal": {
+    "minor": "You seem to keep track of time while gambling",
+    "moderate": "You sometimes lose track of time while gambling",
+    "major": "You often lose track of time while gambling"
+  },
+  "financial": {
+    "minor": "You seem to keep track of your finances while gambling",
+    "moderate": "Your finances are sometimes affected negatively by your gambling.",
+    "major": "Your finances are often negatively impacted by your gambling"
+  },
+  "behavioural": {
+    "minor": "You do not gamble more money than you planned",
+    "moderate": "You sometimes gamble more money than you planned",
+    "major": "You often gamble more money than you planned"
+  },
+  "social": {
+    "minor": "Gambling does not affect your relationships",
+    "moderate": "Gambling sometimes negatively affects your relationships ",
+    "major": "Gambling often negatively affects your relationships "
+  },
+  "personal": {
+    "minor": "Gambling does not affect your health",
+    "moderate": "Sometimes your health is affected by gambling",
+    "major": "Your health is often negatively impacted by your gambling"
+  }
 }

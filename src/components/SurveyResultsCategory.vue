@@ -53,9 +53,11 @@ export default {
       return { title: "moderate", colour: "orange" };
     },
     categoryScoreImpactMessage() {
+      if (this.messages.length < 1 || !this.name) {
+        return "";
+      }
       const { title } = this.categoryScoreImpact;
-      const rawMessage = this.messages[title] || "";
-      return rawMessage.replace("(category)", this.friendlyName.toLowerCase());
+      return this.messages[this.name][title];
     },
   },
 };
