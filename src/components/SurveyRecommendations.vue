@@ -17,6 +17,7 @@
         ></SurveyRecommendation>
       </ul>
     </v-card-text>
+    <v-btn to="/results">Back to results</v-btn>
     <v-btn to="/">Start over</v-btn>
   </div>
 </template>
