@@ -1,5 +1,10 @@
 import Vue from "vue";
 import Vuex from "vuex";
+import VuexPersistence from "vuex-persist";
+const vuexLocal = new VuexPersistence({
+  storage: window.localStorage,
+});
+
 import { recommendations_enum } from "./enums";
 
 const {
@@ -168,6 +173,7 @@ const store = new Vuex.Store({
       });
     },
   },
+  plugins: [vuexLocal.plugin],
 });
 
 export default store;
