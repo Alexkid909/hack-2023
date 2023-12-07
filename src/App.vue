@@ -1,41 +1,17 @@
 <template>
   <div class="root">
     <v-app>
-      <v-app-bar app color="primary" dark>
-        <div class="d-flex align-center">
-          <router-link to="survey"></router-link>
-          <router-link to="results"></router-link>
-          <router-link to="recomendations"></router-link>
-          <!-- <v-img
-            alt="Vuetify Logo"
-            class="shrink mr-2"
-            contain
-            src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-            transition="scale-transition"
-            width="40"
-          />
-  
-          <v-img
-            alt="Vuetify Name"
-            class="shrink mt-1 hidden-sm-and-down"
-            contain
-            min-width="100"
-            src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-            width="100"
-          /> -->
+      <header class="header pt-3">
+        <div class="d-flex justify-center">
+          <h1 class="main-header">Fettle</h1>
         </div>
-
-        <v-spacer></v-spacer>
-
-        <!-- <v-btn
-          href="https://github.com/vuetifyjs/vuetify/releases/latest"
-          target="_blank"
-          text
-        >
-          <span class="mr-2">Latest Release</span>
-          <v-icon>mdi-open-in-new</v-icon>
-        </v-btn> -->
-      </v-app-bar>
+      </header>
+      <!-- <v-app-bar app color="grey lighten-3 py-4" height="150">
+        <template>
+          <v-app-bar-title>
+          </v-app-bar-title>
+        </template>
+      </v-app-bar> -->
 
       <v-main>
         <v-container class="mt-10 d-flex justify-center">
@@ -57,7 +33,22 @@ export default {
 </script>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
 .root {
+  header {
+    &.header {
+      background-color: rgb(230, 230, 230);
+      box-shadow: 0 5px 10px 1px gray;
+    }
+  }
+
+  .main-header {
+    font-family: "Alfa Slab One";
+    color: #ff5722;
+    font-size: 76px;
+  }
+
   .survey-button {
     min-width: 44px !important;
   }
