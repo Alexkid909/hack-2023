@@ -1,86 +1,50 @@
 {
   "play-time-reminders": {
-    "message": "You could be spending longer than usual on the site. Try setting up a reality check.",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Set Session Reminder"
-    }
+    "message": "You could be spending longer than usual on the site. Try setting up a (link).",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "reality check" }
   },
   "session-limits": {
-    "message": "Your gambling sessions could be lasting longer than you'd like. You could reduce this by setting up a session limit.",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Set Session Limit"
-    }
+    "message": "Your gambling sessions could be lasting longer than you'd like. You could reduce this by setting up a (link).",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "session limit" }
   },
   "deposit-limits": {
-    "message": "You could be depositing too much to your account. Set up a deposit limit to help control deposit amounts.",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Set Deposit Limit"
-    }
+    "message": "You could be depositing too much to your account. Set up a (link) to help control deposit amounts.",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "deposit limit" }
   },
   "auto-withdraw": {
-    "message": "With Auto withdrawal you can set a maximum balance. Funds will auto withdraw when limit is reached.",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/withdraw",
-      "label": "Set Auto Withdrawal"
-    }
+    "message": "With Auto withdrawal you can set a maximum balance. Funds will auto withdraw when limit is reached. Find out more (link).",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/withdraw", "label": "here" }
   },
   "promote-withdraw": {
-    "message": "We recommend withdrawing funds when a higher or lower balance is reached.",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/withdraw",
-      "label": "Withdraw Funds"
-    }
+    "message": "We recommend (link) funds when a higher or lower balance is reached.",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/withdraw", "label": "withdrawing" }
   },
   "take-a-break": {
-    "message": "When a break is needed, you can block your account for a few days, giving yourself some time away from the site",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Initiate Break"
-    }
+    "message": "When a break is needed, you can block your account for a few days, giving yourself some time away from the site. Start your break (link)",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "here" }
   },
   "self-exclude": {
-    "message": "If you need a longer break, you might want to self-exclude.This will restrict access for longer periods of time",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Initiate Exclusion"
-    }
+    "message": "If you need a longer break, you might want to (link). This will restrict access for longer periods of time.",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "self-exclude" }
   },
   "casino-spend-limits": {
-    "message": "You could add a stake limit to reduce the amount you can bet in a set amount of time",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Add Casino Stake Limit"
-    }
+    "message": "You could (link) to reduce the amount you can bet in a set amount of time",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "add a stake limit" }
   },
   "casino-loss-limits": {
-    "message": "You could add a loss limit to your account so you can reduce losses",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Add Casino Loss Limit"
-    }
+    "message": "You could (link) to your account so you can reduce losses",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "add a loss limit" }
   },
   "lottery-purchase-limits": {
-    "message": "You could add a lottery purchase limit to reduce the amount you can buy in a set amount of time",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Add Lottery Purchase Limit"
-    }
+    "message": "You could (limit) to reduce the amount you can buy in a set amount of time",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "add a lottery purchase limit" }
   },
   "sports-spend-limits": {
-    "message": "You could add a stake limit to reduce the amount you can bet in a set amount of time",
-    "cta": {
-      "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks",
-      "label": "Add Sports Stake Limit"
-    }
+    "message": "You could (link) to reduce the amount you can bet in a set amount of time",
+    "cta": { "destination": "https://qa03-demo.bedegaming.net/en/home.html?myAccount=true#/limits-and-locks", "label": "add a stake limit" }
   },
   "third-party-advice": {
-    "message": "If you feel like gambling is affecting your personal life and mental health, consider visiting {{link}} to find help and advice.",
-    "cta": {
-      "destination": "https://www.begambleaware.org/",
-      "label": "Find out more"
-    }
+    "message": "If you feel like gambling is affecting your personal life and mental health, consider visiting this site to (link).",
+    "cta": { "destination": "https://www.begambleaware.org/", "label": "find help and advice" }
   }
 }

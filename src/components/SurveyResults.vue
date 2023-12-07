@@ -17,8 +17,8 @@
         :messages="resultsMessages"
       ></SurveyResultsCategory>
     </div>
-    <v-btn class="mx-2" to="/recommendations">See reccommendations</v-btn>
-    <v-btn class="mx-2" to="/">Start over</v-btn>
+    <v-btn class="mx-1 my-1" to="/recommendations">See reccommendations</v-btn>
+    <v-btn class="mx-1 my-1" to="/">Start over</v-btn>
   </div>
 </template>
 

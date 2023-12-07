@@ -20,13 +20,13 @@
         </div>
         <div>
           <v-btn
-            class="mx-1"
+            class="mx-1 my-1"
             :disabled="!canGoToPrev"
             @click="goToPrevQuestion()"
             >Prev</v-btn
           >
           <v-btn
-            class="mx-1"
+            class="mx-1 my-1"
             v-if="currentQuestionIndex === questions.length - 1"
             :disabled="!canGetResults"
             @click="submitResults"
@@ -34,7 +34,7 @@
           >
           <v-btn
             v-else
-            class="mx-1"
+            class="mx-1 my-1"
             :disabled="!canGoToNext"
             @click="goToNextQuestion()"
             >Next</v-btn

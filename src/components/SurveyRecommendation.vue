@@ -24,7 +24,7 @@ export default {
         return "";
       }
       const { message, cta } = recommendationMessage;
-      const link = `<a href="${cta.destination}">${cta.label}</a>`;
+      const link = `<a href="${cta.destination}" target="_blank">${cta.label}</a>`;
       return message.replace("(link)", link) || "";
     },
   },
